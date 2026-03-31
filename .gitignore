@@ -1,0 +1,25 @@
+# --- Xcode ---
+# User-specific files (Window positions, open tabs, etc.)
+xcuserdata/
+*.xcuserdatad
+*.xcuserstate
+
+# --- Build Products ---
+# The compiled app and intermediate object files
+DerivedData/
+build/
+*.ext-build
+
+# --- Swift Package Manager ---
+# Local checkouts and build artifacts
+.build/
+.swiftpm/
+
+# --- macOS ---
+# System-level hidden files
+.DS_Store
+
+# Optional: Ignore local databases
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
